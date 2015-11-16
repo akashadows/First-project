@@ -1,0 +1,51 @@
+#header {
+	z-index: 1;
+	width: 100%;
+	background-color: black;
+	height: 60px;
+	position: fixed;
+	float: left;
+}
+li {
+	font-family: cursive;
+	position: relative;
+	text-align: left;
+	padding-top: 3px;
+	padding-left: 10px;
+	display: inline-block;
+	color: white;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.right h1 {
+	margin: auto;
+	line-height: 200px;
+	margin-top: -100px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 60px;
+	font-family: Impact;
+	z-index: 1;
+}
+.right h2{
+	margin: auto;
+	line-height: 300px;
+	top: 50%;
+	width: 100%;
+	margin-top: -100px;
+	text-align: center;
+	position: absolute;
+	z-index: 1;
+}
+.right img {
+	float: top;
+	clear: left;
+	position: absolute;
+}
+li a:hover {
+	color: red;
+}
